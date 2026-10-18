@@ -3,12 +3,12 @@ kind: Service
 metadata:
   name: api-svc
   labels:
-    app: api
+    app: apii
     tier: backend
 spec:
   type: ClusterIP
   selector:
-    app: api
+    app: apii
     tier: backend
   ports:
     - port: 80
